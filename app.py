@@ -19,3 +19,6 @@ images = [
 if st.button("photogenic!"):
     selected = random.choice(images)
     st.image(selected, caption=f"Let's pose!：{selected}")
+
+# ==== 表紙画像（固定表示） ====
+st.image("images/top0.jpg")
